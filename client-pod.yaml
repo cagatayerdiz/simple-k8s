@@ -8,5 +8,6 @@ spec:
   containers:
     - name: client
       image: cagatayerdiz/multi-client
+      imagePullPolicy: Always
       ports:
         - containerPort: 3000
